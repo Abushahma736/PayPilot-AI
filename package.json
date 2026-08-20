@@ -1,0 +1,19 @@
+{
+  "name": "paypilot-ai",
+  "version": "1.0.0",
+  "description": "PayPilot AI - Intelligent Shopping & Payment Agent",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "fintech",
+    "ai-agent",
+    "razorpay",
+    "shopping-assistant"
+  ],
+  "author": "Hadi Q",
+  "license": "MIT"
+}
